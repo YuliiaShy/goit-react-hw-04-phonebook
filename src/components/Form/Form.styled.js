@@ -1,11 +1,7 @@
 import styled from 'styled-components';
 
 const Forms = styled.form`
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
-  border: 1px solid black;
-  border-radius: 5px;
+  padding: 10px;
 `;
 
 const Label = styled.label`
@@ -20,7 +16,9 @@ const Input = styled.input`
 `;
 
 const SubmitButton = styled.button`
-  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 4px;
   background-color: rgb(245, 248, 40);
 `;
 

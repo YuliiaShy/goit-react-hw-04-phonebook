@@ -5,15 +5,14 @@ const Items = styled.li`
     display: flex;
     justify-content: space-between;
 `;
-const Text = styled.p`
-  font-weight: bold;
-`;
 
 const Button = styled.button`
- width: max-content;
+width: max-content;
 height: max-content;
 margin:  16px 0 16px 0;
-    border-radius: 5px;
+cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid  rgb(150, 150, 141);
     color: #000;
     background-color: rgb(245, 248, 40);
   &:hover,
@@ -22,4 +21,4 @@ margin:  16px 0 16px 0;
   }
 `;
 
-export { Items, Text,  Button };
+export { Items,  Button };
