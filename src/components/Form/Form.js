@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
-import { Forms, Label, Input, SubmitButton } from 'components/Form/Form.styled';
+import { Forms, Label, SubmitButton } from 'components/Form/Form.styled';
 
 function Form ({onSubmit}) {
   const [name, setName] = useState('');
@@ -31,7 +31,7 @@ function Form ({onSubmit}) {
       <Forms onSubmit={formSubmit}>
         <Label htmlFor="name">
           Name
-          <Input
+          <input
             type="text"
             name="name"
             value={name}
@@ -43,7 +43,7 @@ function Form ({onSubmit}) {
         </Label>
         <Label htmlFor="number">
           Number
-          <Input
+          <input
             type="tel"
             name="number"
             value={number}
